@@ -43,3 +43,20 @@ p {
   margin: .25rem 0;
   padding: .2rem;
 }
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+div figure {
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+  display: flex;
+  background-color: #6f00e7;
+  border-radius: 3em;
+  font-size: .6rem;
+  padding: .3rem .8rem;
+  margin: 0 4rem 0 0;
+}
