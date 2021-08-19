@@ -38,3 +38,8 @@ main > figure {
   margin: 0;
   align-items: center;
 }
+
+p {
+  margin: .25rem 0;
+  padding: .2rem;
+}
