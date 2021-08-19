@@ -27,3 +27,14 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+
+main > figure {
+  flex-direction: column;
+  border: 3px solid #987ffa;
+  display: flex;
+  border-radius: 6px;
+  justify-content: space-between;
+  padding: .7rem;
+  margin: 0;
+  align-items: center;
+}
