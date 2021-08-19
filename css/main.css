@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  font-family: Karma, serif;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: Oswald, sans-serif;
+  margin: .25rem 0;
+  padding: .2rem;
+  color: #6f00e7;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+main > figure {
+  flex-direction: column;
+  border: 3px solid #987ffa;
+  display: flex;
+  border-radius: 6px;
+  justify-content: space-between;
+  padding: .7rem;
+  margin: 0;
+  align-items: center;
+}
+
+p {
+  margin: .25rem 0;
+  padding: .2rem;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+div figure {
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+  display: flex;
+  background-color: #6f00e7;
+  border-radius: 3em;
+  font-size: .6rem;
+  padding: .3rem .8rem;
+  margin: 0 4rem 0 0;
+}
+
+figcaption p, h1 {
+  flex-grow: 1;
+}
