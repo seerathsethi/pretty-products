@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-family: Karma, serif;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: Oswald, sans-serif;
+  margin: .25rem 0;
+  padding: .2rem;
+  color: #6f00e7;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
