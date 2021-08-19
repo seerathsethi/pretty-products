@@ -60,3 +60,7 @@ div figure {
   padding: .3rem .8rem;
   margin: 0 4rem 0 0;
 }
+
+figcaption p, h1 {
+  flex-grow: 1;
+}
